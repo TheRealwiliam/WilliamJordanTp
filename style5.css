@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 35%;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+div{
+	padding: 15px 12px;
+    border-radius: 20px;
+    margin-top: 3px;
+    border: 2px solid red;
+}
+
+button{
+	background-color: red;
+    text-align: center;
+    width: 300px;
+    padding: 15px 32px;
+    border-radius: 26px;
+    margin-top: 2px;
+}
+
+h1{
+	color: red;
+}
+
+button :hover {
+	background-color: *black*;
+	color: red;
+}

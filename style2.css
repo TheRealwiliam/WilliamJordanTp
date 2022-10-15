@@ -1,0 +1,24 @@
+ .b1 {
+    background-color: aquamarine;
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 10px;
+}
+
+.b2 {
+   background-color: purple;
+   height: 250px;
+   width: 250px;
+   float: left;
+   margin: 10px;
+}
+
+.b3 {
+    clear: both;
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 10px;
+   }
