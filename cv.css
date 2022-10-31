@@ -1,0 +1,52 @@
+.cv
+{
+	border: 3px solid black;
+	border-radius: 10px;
+	width: 50%;
+	margin-left: 22%;
+	margin-right:22%;
+	padding: 1%;
+	box-shadow: 10px 8px 1px red;
+}
+
+.info_perso
+{
+	border: 2px solid silver;
+	height: 50%;
+	padding: 3%;
+	width: 94%;
+	
+}
+
+.formation
+{
+	border: 2px solid silver;
+	height: 50%;
+	padding: 3%;
+	width: 94%;
+	
+}
+
+.experiences_professionels
+{
+	border: 2px solid silver;
+	height: 50%;
+	padding: 3%;
+	width: 94%;
+	
+}
+
+.Langues_et_Compétences
+{
+	border: 2px solid silver;
+	height: 50%;
+	padding: 3%;
+	width: 94%;
+	
+}
+
+img{
+	position: absolute;
+	right: 470px;
+	top: 60px;
+}
