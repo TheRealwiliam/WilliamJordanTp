@@ -1,0 +1,29 @@
+body
+{
+	background-color: darkorange;
+}
+
+ul li
+{
+	width: 200px;
+	height: 50px;
+	border: 3px solid mediumblue;
+	background-color: white;
+	font-size: 18px;
+	margin-bottom: 2px;
+	color: black;
+	list-style: none;
+	padding-left: 10px;
+	line-height: 50px;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+ul li:hover
+{
+	width: 250px;
+	color: gold;
+	border-color: gold;
+	background-color: darkorange; 
+	
+}
