@@ -1,0 +1,157 @@
+body
+{
+	font-family: verdana, calibri, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(goku.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+nav>ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li{
+	list-style-type: none;
+}
+
+nav> ul >li{
+	float: left;
+}
+
+.submenu{
+	display: none;
+}
+
+nav input[type=checkbox]{
+	display: none;
+}
+
+.menu_mobile{
+	display: none;
+}
+
+nav{
+	width: 100%;
+	background-color: darkorange;
+}
+
+nav > ul > li
+{
+	float: left;
+	position: relative;
+}
+
+nav > ul::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav >ul>li>a{
+	padding: 20px 30px;
+	color: gold;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+
+.submenu li{
+	border-bottom: 1px solid black;
+}
+
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: dimgray;
+}
+
+.menu_html:hover{
+	border-top: 5px solid gold;
+}
+
+.menu_css:hover{
+	border-top: 5px solid gold;
+}
+
+.menu_contact:hover{
+	border-top: 5px solid gold;
+}
+
+.menu_js:hover{
+	border-top: 5px solid gold;
+}
+
+nav>ul>li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+.menu_html .submenu{
+	background-color: gold;
+}
+
+.menu_css .submenu{
+	background-color: gold;
+}
+
+.menu_js .submenu{
+	background-color: gold;
+}
+
+.menu_contact .submenu{
+	background-color: gold;
+}
+
+
+.submenu li:hover a{
+	color: darkorange;
+	font-weight: bold; 
+}
+.menu_html .submenu li:hover{
+	background-color: gold;
+}
+
+.menu_css .submenu li:hover{
+	background-color: gold;
+}
+
+.menu_js .submenu li:hover{
+	background-color: gold;
+}
+
+.menu_contact .submenu li:hover{
+	background-color: gold;
+}
+
+div
+{
+	border: 2px solid orange;
+	text-align: center;
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-top: 15%;
+	padding: 50px;
+	border-radius: 20%;
+}
+
+
+
+
+
