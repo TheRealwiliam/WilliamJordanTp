@@ -1,16 +1,16 @@
 h1
 {
-	color: red;
+	color: skyblue;
 }
 
 body
 {
-	background-color: black;
+	background-color: silver;
 }
 
 div
 {
-	border: 2px solid red;
+	border: 2px solid skyblue;
 	border-radius: 26px;
 	width: 50%;
 	margin-left: 25%;
@@ -27,11 +27,11 @@ button
 	padding: 15px 32px;
 	border-radius: 26px;
 	margin-top: 3px;
-	border: 2px solid red;
+	border: 2px solid skyblue;
 }
 
 button:hover
 {
-color: red;
+color: skyeblue;
 background-color: white;
-border:2px solid red;
+border:2px solid skyblue;
