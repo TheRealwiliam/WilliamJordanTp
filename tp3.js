@@ -84,7 +84,7 @@ function fun_switch()
     }
 }
 
-function fun_switch()
+function bonusfunc()
 {
     var article
     var prix
