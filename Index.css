@@ -119,6 +119,10 @@ nav>ul>li:hover a{
 	background-color: gold;
 }
 
+.menu_sql .submenu{
+	background-color: gold;
+}
+
 
 .submenu li:hover a{
 	color: darkorange;
@@ -139,6 +143,11 @@ nav>ul>li:hover a{
 .menu_contact .submenu li:hover{
 	background-color: gold;
 }
+
+.menu_sql .submenu li:hover{
+	background-color: gold;
+}
+
 
 div
 {
