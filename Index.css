@@ -87,6 +87,10 @@ nav li:hover .submenu{
 	border-top: 5px solid gold;
 }
 
+.menu_sql:hover{
+	border-top: 5px solid gold;
+}
+
 .menu_css:hover{
 	border-top: 5px solid gold;
 }
