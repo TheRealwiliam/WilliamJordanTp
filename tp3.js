@@ -85,13 +85,14 @@ function fun_switch()
 }
 
 function fun_switch()
+{
     var article
     var prix
     var quantité
     var res
     var total = 0;
 
-        do{
+    do{
             article = prompt("Votre article");
             quantité = prompt("La quantité");
             prix = prompt("Le prix");
@@ -101,6 +102,8 @@ function fun_switch()
 
             alert("Votre facture;"+ total)
 
-            next = prompt("voulez vous ajouter ")
-        }
+            next = prompt("voulez vous CONTINUER (OUI/NON) ? ")
+    }
+    while(next !=STOP)
 
+}
