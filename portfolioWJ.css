@@ -1,0 +1,73 @@
+body{
+    background-image: url(Fondécran.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.d1{
+    background-color: rgba(255, 255, 255, 0.103);
+    height: 7em;    
+    margin-top: 45px;
+    margin-left: 25px;
+    margin-right: 25px;    
+    border-radius: 10px;
+    border: 2px solid rgba(189, 129, 1, 0.397)  ;
+    }
+    
+    .d2{
+    height: 35em;    
+    margin-top: 45px;
+    margin-left: 25px;
+    margin-right: 25px;    
+    border-radius: 30px;
+    
+    
+    }
+    
+    .d3{
+        background-color: rgba(0, 0, 0, 0.13);
+        height: 35em;
+        border: 2px solid rgba(189, 129, 1, 0.514)  ;
+        width: 20%;
+        margin-right: 20px;
+        border-radius: 25px;
+        float: left;
+    
+    }
+    
+    .d4{
+        height: 35em;
+        background-color: rgba(0, 0, 0, 0.13);
+        border: 2px solid rgba(189, 129, 1, 0.514)  ;
+        border-radius: 25px ;
+        float: right;
+        width: 76%;
+    
+    }
+    
+    .d5{
+    width: 66%;
+    height: 31em;    
+    margin-top: 32px;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.062);
+    border: 2px solid rgba(189, 129, 1, 0.514) ;
+    float:left;
+    }
+    
+    
+    
+    .d7{
+    height: 7em;    
+    margin-top: 45px;
+    margin-left: 25px;
+    margin-right: 25px;    
+    border: 2px solid rgba(189, 129, 1, 0.514)  ;
+    background-color: rgba(255, 255, 255, 0.185);
+    }
+    
+    iframe
+    {
+        border: 0px;
+    }
