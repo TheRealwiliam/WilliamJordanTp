@@ -91,6 +91,10 @@ nav li:hover .submenu{
 	border-top: 5px solid gold;
 }
 
+.menu_mission:hover{
+	border-top: 5px solid gold;
+}
+
 .menu_css:hover{
 	border-top: 5px solid gold;
 }
@@ -126,6 +130,9 @@ nav>ul>li:hover a{
 .menu_sql .submenu{
 	background-color: gold;
 }
+.menu_mission .submenu{
+	background-color: gold;
+}
 
 
 .submenu li:hover a{
@@ -141,6 +148,9 @@ nav>ul>li:hover a{
 }
 
 .menu_js .submenu li:hover{
+	background-color: gold;
+}
+.menu_mission .submenu li:hover{
 	background-color: gold;
 }
 
