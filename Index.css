@@ -87,6 +87,10 @@ nav li:hover .submenu{
 	border-top: 5px solid gold;
 }
 
+.menu_php:hover{
+	border-top: 5px solid gold;
+}
+
 .menu_sql:hover{
 	border-top: 5px solid gold;
 }
@@ -115,6 +119,10 @@ nav>ul>li:hover a{
 	background-color: gold;
 }
 
+.menu_php .submenu{
+	background-color: gold;
+}
+
 .menu_css .submenu{
 	background-color: gold;
 }
@@ -140,6 +148,10 @@ nav>ul>li:hover a{
 	font-weight: bold; 
 }
 .menu_html .submenu li:hover{
+	background-color: gold;
+}
+
+.menu_php .submenu li:hover{
 	background-color: gold;
 }
 
