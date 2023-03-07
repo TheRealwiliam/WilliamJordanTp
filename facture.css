@@ -1,0 +1,193 @@
+h1
+{
+    float: right;
+    margin-right: 120px;
+    margin-top: 40px;
+}
+
+.i1
+{
+    border: 0px solid black;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+
+img
+{
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.i2
+{
+    float: right;
+    margin-right: 100px;
+    border: 0px;
+}
+
+.d1
+{
+    border: 0px solid black;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(71, 40, 248);
+}
+
+h2
+{
+    border-bottom: 1px solid black;
+    width: 110%;
+
+}
+
+.i3
+{
+    border: 0px solid black;
+    float: left;
+    margin-left: 10px;
+    width: 50%;
+}
+
+
+
+.i4
+{
+    border: 0px solid black;
+    width: 50%;
+}
+
+.d2
+{
+    border: 0px solid black;
+    width: 100%;
+    padding: 20px;
+    
+
+}
+
+.d3
+{
+    float: left;
+    border: 0px solid black;
+    width: 700px;
+    padding: 10px;
+    margin-left: 40px;
+    
+}
+
+.d4
+{
+    float: left;
+    margin-left: 2px;
+    border: 0px solid black;
+    width: 700px;
+    margin-left: 200px;
+    padding: 10px;
+    
+}
+
+table
+{
+    border: 2px solid black;
+    width: 99%;
+    margin-left: 20px;
+    height: 100%;
+
+    
+}
+
+.totalLigne
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+.desc
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+.qte
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+.prix
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+td
+{
+    border: 1px solid black;
+    height: 40px;
+}
+
+th
+{
+    background-color: rgb(248, 53, 27);
+    margin-top: 10px;
+    height: 30px;
+    
+}
+
+.i5
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+td
+{
+    border: 1px solid black;
+    height: 40px;
+}
+
+.d5
+{
+    float: right;
+    padding: 2px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+    
+}
+
+.i6
+{
+    border: 0px;
+
+}
+
+h3
+{
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+
+button
+{
+    margin-top: 250px;
+}
+
+#result{
+
+    color: black;
+    text-align: center;
+}
+
+.buttonjs
+{
+    margin-top: 250px;
+}
