@@ -1,89 +1,80 @@
-function Calculer()
-{
+function Calculer(){
     var a = document.getElementById("inputA").value;
     var b = document.getElementById("inputB").value;
     var c = Number(a) * Number(b);
-
     T1.value = c;
-
+    
     var d = document.getElementById("inputC").value;
     var e = document.getElementById("inputD").value;
-    var f = Number(e) * Number(d);
-
+    var f = Number(d) * Number(e);
     T2.value = f;
 
-    var h = document.getElementById("inputE").value;
+    var g = document.getElementById("inputE").value;
     var i = document.getElementById("inputF").value;
-    var j = Number(h) * Number(i);
+    var h = Number(g) * Number(i);
+    T3.value = h;
 
-    T3.value = j;
+    var j = document.getElementById("inputG").value;
+    var k = document.getElementById("inputI").value;
+    var l = Number(j) * Number(k);
+    T4.value = l;
 
-    var k = document.getElementById("inputG").value;
-    var l = document.getElementById("inputH").value;
-    var m = Number(k) * Number(l);
+    var S_T = Number(c) + Number(f) + Number(h) + Number(l);
+    ST.value = S_T;
 
-    T4.value = m;
+TI.value = 10.00
 
-    var S_T = Number(c) + Number(f) + Number(j) + Number(m);
-    ST.value = S_T
+var TT = S_T * 10 / 100
+Tt.value = TT
 
-    TI.value = 10.00
+Re.value = 10.00
 
-    
-    var TT = S_T * 10 / 100
-    Tt.value = TT
+var soustotal_remise = S_T - TT
+STM.value = soustotal_remise
 
-    Re.value = 10.00
+var Exp_Manu = 5.0
+E_M.value = Exp_Manu
 
-    var soustotal_remise = S_T - TT
-    STM.value = soustotal_remise
-
-    var Exp_Manu = 5.0
-    E_M.value = Exp_Manu
-
-    var Solde_total = S_T + Exp_Manu
-    SOL.value = Solde_total
+var Solde_total =  Exp_Manu + S_T
+SOL.value = Solde_total
 
 }
 
-function Remplir()
-{
-    const tabDesc = new Array("portable", "burreau", "ram 8go", "clef usb 16go", "sourris" , "écran 17 pouces");
-    var listeprix = document.getElementsByClassName("prix");
-    var listeQte = document.getElementsByClassName("Qte");
-        var listeDesc = document.getElementsByClassName("desc");
+function remplir(){
 
-    for (var i=0; i< listeDesc.length;i++){
+const tabDesc = new Array("portable", "bureau", "ram 8go", "clef usb 16go", "souris", "écran 17 pouces");
+var listePrix = document.getElementsByClassName("prix");
+var listeQte = document.getElementsByClassName("qte");
+var listeDesc = document.getElementsByClassName("desc");
 
-        var idesc= Math.floor(tabDesc.length* Math.random());
-        
-        listeDesc[i].value = tabDesc[idesc];
-        var Qte = Math.floor(10 * Math.random()+1);
-        listeQte[i].value = qte;
-        var prix = Math.floor(100 * Math.random()+1);
-        listeprix[i].value = prix;
-    }
+for (var i=0; i< listeDesc.length;i++){
+    var idesc = Math.floor(tabDesc.length * Math.random());
+   
+    listeDesc[i].value = tabDesc[idesc];
+    var qte = Math.floor(10 *Math.random()+1);
+    listeQte[i].value = qte;;
+    var prix = Math.floor(100 *Math.random()+1);
+    listePrix[i].value = prix;
+
 }
-function Ajouter_ligne(){
-    var newli = document.getElementById("modeleLigne").cloneNode(true)
+}
+
+function ajouterLigne(){
+    var newLi = document.getElementById("modeleLigne").cloneNode(true);
     var lastLi = document.getElementById("lastLigne");
     var pere = document.getElementById("table_inv").firstChild.nextSibling;
-    pere.insertBefore(newli, lastLi);
+    pere.insertBefore(newLi, lastLi);
 }
-
 
 function calculate(){
     var total = 0;
 
-    var listeprix = document.getElementsByClassName("prix");
-    var listeQte = document.getElementsByClassName("Qte");
+    var listePrix = document.getElementsByClassName("prix");
+    var listeQte = document.getElementsByClassName("qte");
     var listeTtl = document.getElementsByClassName("totalLigne");
 
-for(var i=0; i< listeprix.length;i++){
-    listeTtl[i].value = parseInt(listeQte[i].value)*parseInt(listeprix[i].value);
+for (var i=0; i< listePrix.length;i++){
+    listeTtl[i].value = parseInt(listeQte[i].value)*parseInt(listePrix[i].value);
     total = total + parseInt(listeTtl[i].value);
 }
 }
-
-
-

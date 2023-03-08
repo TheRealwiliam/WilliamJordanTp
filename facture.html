@@ -9,9 +9,11 @@
     <title>Facture Laboratoire GSB</title>
 </head>
 <body>
+<form>
+    
 <div class="d1">
     <h1>FACTURE</h1>
-    <img src="inconnu.jpg">
+    <img src="pdp.jpg">
     <input type="text" class="i1" placeholder="Nom de la compagnie"><br>
     <input type="text" class="i1" placeholder="Adresse postale"><br><br><br>
     <input type="text" class="i1" placeholder="Details du Contrat"><br><br>
@@ -39,47 +41,47 @@
 <input type="text" class="i4" placeholder="Adresse postale"><br> <br>
 <input type="text" class="i4" placeholder="Téléphone"><br> <br>
 <input type="text" class="i4" placeholder="Email"><br> <br>
-
 </div> 
 </div>    
-
-
-<br> <br> 
+ 
+<br> <br> <br> 
 <table id="table_inv">
+<tr> 
+    <th> Description</th> 
+    <th> Quantité</th> 
+    <th> Prix Unitaire</th> 
+    <th> Total</th>
+    
+</tr>
+
+<tr class="row"> 
+    <td> <input type="text" class="desc" name="desc" value="desc1"> </td> 
+    <td> <input type="text" class="input qte" id="inputA" name="qte" value="0"> </td> 
+    <td> <input type="text" class="input prix" id="inputB" name="prix" value="0"> </td>
+    <td> <input type="text" class="totalLigne" id="T1" name="total" value="0.00"> </td>
+</tr>
+     
 <tr>
-    <th> Description </th>
-    <th> Quantité </th>
-    <th> Prix Univertaire </th>
-    <th> Total </th>
+    <td> <input type="text" class="desc" name="desc" value="desc2"> </td>
+    <td> <input type="text" class="input qte" id="inputC" name="qte" value="0"> </td> 
+    <td> <input type="text" class="input prix" id="inputD" name="prix" value="0"> </td>
+    <td> <input type="text" class="totalLigne" id="T2" name="total" value="0.00"> </td>  
 </tr>
 
-<tr class="row">
-    <td> <input type="text" class="desc" placeholder="desc1" name="desc" value="desc1"></td>
-    <td> <input type="text" class="input qte" id="inputA" value="0"></td>
-    <td> <input type="text" class="input prix" id="inputB" name="prix" id="P1" value="0"></td>
-    <td> <input type="text" class="totalLigne" id="T1" name="total" id="T1" value="0.00"></td>
-</tr>
-
-<tr>
-    <td> <input type="text" class="desc" placeholder="desc2" name="desc" value="desc2"></td>
-    <td> <input type="text" class="input qte" id="inputC" value="0"></td>
-    <td> <input type="text" class="input prix" id="inputD" name="prix" id="P2" value="0"></td>
-    <td> <input type="text" class="totalLigne" id="T2" name="total" id="T2" value="0.00"></td>
-</tr>
-
-<tr  class="row" id="modeleLigne">
-    <td> <input type="text" class="desc" placeholder="desc3" name="desc" value="desc3"></td>
-    <td> <input type="text" class="input qte" id="inputE" value="0"></td>
-    <td> <input type="text" class="input prix" id="inputF"name="prix" id="P3" value="0"></td>
-    <td> <input type="text" class="totalLigne" name="total" id="T3"readonly="readonly" value="0.00"></td>
+<tr class="row" id="modeleLigne">
+    <td> <input type="text" class="desc" name="desc" value="desc3"> </td>
+    <td> <input type="text" class="input qte" id="inputE" name="qte" value="0"> </td> 
+    <td> <input type="text" class="input prix" id="inputF" name="prix" value="0"> </td>
+    <td> <input type="text" class="totalLigne" id="T3" name="total" readonly="readonly" value="0.00"> </td> 
 </tr>
 
 <tr class="row lastrow" id="lastLigne">
-    <td> <input type="text" class="desc" placeholder="desc4" name="desc" value="desc4"></td>
-    <td> <input type="text" class="input qte" name="qte" id="inputG" value="0"></td>
-    <td> <input type="text" class="input prix" name="prix" id="inputI" value="0"></td>
-    <td> <input type="text" class="totalLigne" name="total" id="T4" readonly="readonly" value="0.00"></td>
+    <td> <input type="text" class="desc"  name="desc" value="desc4"> </td>
+    <td> <input type="text" class="input qte" id="inputG" name="qte" value="0"> </td> 
+    <td> <input type="text" class="input prix" id="inputI" name="prix" value="0"> </td>
+    <td> <input type="text" class="totalLigne" id="T4" name="total" readonly="readonly" value="0.00"> </td> 
 </tr>
+ 
 </table>
 
 <p>Remarques, notes et instruction de paiement.</p>
@@ -91,22 +93,21 @@
     Taux d'imposition : <input type="text" class="i6" id="TI"> <br> <br>
     Taux totale : <input type="text" class="i6" id="Tt"> <br> <br>
     Expidito, manutention : <input type="text" class="i6" id="E_M"> <br> <br>
-    
-    <h3>Solde du : <input type="text" class="i6" id="SOL"></h3> <br>
+
+    <h3> Solde du : <input type="text" class="i6" id="SOL"> </h3>
 </div>
 <br>
 
 <br>
 <div class="buttonjs">
-<input type="button" onclick ="Calculer()" value="Caculer">
-<input type= "button" onclick="Ajouter_ligne()"value="Ajouter une ligne">
-<input type="button" onclick="Remplir()" value ="Remplir automatique">
-<input type="button" onclick="Annuler()" value ="Annuler">
+<input type="button" onclick="Calculer()" value="Calculer le solde">
+<input type="button" onclick="remplir()" value="Remplir automatiquement">
+<input type="button" onclick="ajouterLigne()" value="Ajouter une Ligne">
+<input type="button" onclick="calculate()" value="Calcul total">
+<input type="reset">
 
 </div>
-
-
-
+</form>
 
 
 
