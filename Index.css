@@ -111,12 +111,12 @@ nav li:hover .submenu{
 	border-top: 5px solid gold;
 }
 
-nav>ul>li:hover a{
-	padding: 15px 30px 20px 30px;
-}
-
 .menu_certif:hover{
 	border-top: 5px solid gold;
+}
+
+nav>ul>li:hover a{
+	padding: 15px 30px 20px 30px;
 }
 
 
