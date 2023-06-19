@@ -1,18 +1,22 @@
 body
 {
-	background-color: black;
+	background-color: rgb(168, 164, 164);
 	text-align: center;
 }
 
 h1
 {
-	color: yellow;
+	color: rgb(48, 68, 245);
 }
 
-div
+
+
+button
 {
-	background-color: yellow;
-	width: 10%;
-	border-radius: 10px;
-	margin-top: 4%;
+    background-color: rgba(255, 255, 255, 0.938);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    color: rgb(252, 21, 21);
+    margin-left: 5px;
 }
