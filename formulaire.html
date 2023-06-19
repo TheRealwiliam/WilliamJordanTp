@@ -7,7 +7,7 @@
 </head>
 <body bgcolor="silver">
 <center>
-<font color="yellow">
+<font color="blue">
 <h1>Veuillez remplir le formulaire</h1>
 </center>
 <br>
@@ -33,26 +33,26 @@
 	<td>Ville:</td><td><input type="text" name="Ville"></td>
 	</tr>
 	<tr>
-	<td>Type:</label></td>
 	</tr>
 	<tr>
-	<td><label><select name="Type" id="Type"></td>
-		<td><option value="Hotel">Hotel</option>
-		<option value="Mobil Home">Mobil home</option>
-		<option value="Agence de voyage">Agence de voyage</option>
-		<option value="Spot">Spot</option>
-		<option value="Resto">Resto</option>
-		<option value="Cinema">Cinema</option></td>	
-	</select></label>
+        <td>Type :</td> <td><input list="type" name="Type">
+            <datalist id="type">
+              <option value="Hotel">
+              <option value="Mobil home">
+              <option value="Agence de voyage">
+              <option value="Spot">
+              <option value="Restaurant">
+              <option value="Cinema">
+            </datalist></td>
 	</tr>
 	<tr>
 	<td>Identifiant:</td> <td><input type="Password" name="Identifiant"></td>
 	</tr>
-	</table>
-	<div>
+    </table>
+    <br>
+    <br>
 	<button>S'inscrire</button>
 	<button>Annuler</button>
-	</div><br>
 	<br>
 	<a href="menu.html">Retour</a>
 
